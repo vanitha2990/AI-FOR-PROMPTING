@@ -25,8 +25,23 @@ You MUST extract the following fields into this exact JSON structure:
 CRITICAL RULES:
 1. Output ONLY valid, raw JSON. Do not include markdown formatting, intro text, or explanations. 
 2. Base your answers strictly on the text provided.
-</"OMG, delivery took forever!! It was supposed to arrive on Tuesday but came on Friday instead, box was totally smashed up. But wow, the actual noise-canceling headphones are incredible for my flights. Battery lasts like 30 hours. Giving it 4 stars only because of the shipping delay, otherwise it’s a 5. Oh, and I tried calling customer service twice but no one picked up. Terrible support.">
+<review_text>{"OMG, delivery took forever!! It was supposed to arrive on Tuesday but came on Friday instead, box was totally smashed up. But wow, the actual noise-canceling headphones are incredible for my flights. Battery lasts like 30 hours. Giving it 4 stars only because of the shipping delay, otherwise it’s a 5. Oh, and I tried calling customer service twice but no one picked up. Terrible support."}</review_text>
 
-<review_text>
-{"OMG, delivery took forever!! It was supposed to arrive on Tuesday but came on Friday instead, box was totally smashed up. But wow, the actual noise-canceling headphones are incredible for my flights. Battery lasts like 30 hours. Giving it 4 stars only because of the shipping delay, otherwise it’s a 5. Oh, and I tried calling customer service twice but no one picked up. Terrible support."}
-</review_text>
+output:
+{
+"product_name": "noise-canceling headphones",
+"overall_star_rating": 4,
+"sentiment": "Positive",
+"issues_detected": [
+"Shipping Delay",
+"Damaged Packaging",
+"Poor Customer Service"
+],
+"key_positive_features": [
+"Noise-canceling",
+"Long Battery Life"
+]
+}
+
+
+
