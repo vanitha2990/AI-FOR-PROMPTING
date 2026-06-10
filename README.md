@@ -28,5 +28,5 @@ CRITICAL RULES:
 </"OMG, delivery took forever!! It was supposed to arrive on Tuesday but came on Friday instead, box was totally smashed up. But wow, the actual noise-canceling headphones are incredible for my flights. Battery lasts like 30 hours. Giving it 4 stars only because of the shipping delay, otherwise it’s a 5. Oh, and I tried calling customer service twice but no one picked up. Terrible support.">
 
 <review_text>
-{{INSERT_INPUT_REVIEW_HERE}}
+{"OMG, delivery took forever!! It was supposed to arrive on Tuesday but came on Friday instead, box was totally smashed up. But wow, the actual noise-canceling headphones are incredible for my flights. Battery lasts like 30 hours. Giving it 4 stars only because of the shipping delay, otherwise it’s a 5. Oh, and I tried calling customer service twice but no one picked up. Terrible support."}
 </review_text>
